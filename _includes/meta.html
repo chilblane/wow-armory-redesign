@@ -1,0 +1,24 @@
+{% if page.title %}
+<title>{{ site.title }} | {{ page.title }}</title>
+<meta property="og:title" content="{{ site.title }} | {{ page.title }}"/>
+<meta name="description" content="{{ page.description }}">
+<meta property="og:description" content="{{ page.description }}">
+{% else %}
+<title>{{ site.title }}</title>
+<meta property="og:title" content="{{ site.title }}"/>
+<meta name="description" content="{{ site.description }}">
+<meta property="og:description" content="{{ site.description }}">
+{% endif %}
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="{{ site.title }}"/>
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:site" content="@{{ site.twitter }}">
+<meta name="twitter:creator" content="@{{ site.twitter }}">
+<meta name="author" content="{{ site.authors }}">
+<meta name="twitter:card" content="summary_large_image">
+
+<meta property="og:image" content="{{ site.url }}{{ site.og_image }}">

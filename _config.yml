@@ -1,0 +1,10 @@
+# Server
+url: http://www.chilblane.com/wow-armory-redesign
+baseurl: ""
+exclude: [node_modules, src, Gemfile, Gemfile.lock, Gruntfile.js, package.json, README.md]
+permalink: /:title
+
+# Page meta
+title: Dnasis
+description: Portfolio project redesigning World of Warcraft Armory pages
+authors: Daniel Singer, Blizzard
