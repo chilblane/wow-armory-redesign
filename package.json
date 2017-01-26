@@ -1,0 +1,37 @@
+{
+  "name": "wow-armory-redesign",
+  "version": "1.0.0",
+  "description": "Portfolio project redesigning World of Warcraft Armory pages",
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "grunt": "^1.0.0",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-csso": "^2.1.0",
+    "grunt-jekyll": "^0.4.4",
+    "jquery": "^3.1.1",
+    "jquery.scrollto": "^2.1.2",
+    "load-grunt-tasks": "^3.5.2",
+    "nib": "^1.1.2",
+    "rupture": "^0.6.2",
+    "serve-static": "^1.11.1",
+    "time-grunt": "^1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chilblane/wow-armory-redesign.git"
+  },
+  "author": "Daniel Singer",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/chilblane/wow-armory-redesign/issues"
+  },
+  "homepage": "https://github.com/chilblane/wow-armory-redesign#readme"
+}
