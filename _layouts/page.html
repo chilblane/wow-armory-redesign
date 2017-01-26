@@ -1,11 +1,14 @@
 <!doctype html>
-<html lang='en' class='index'>
+<html lang='en'>
 <head>
 {% include header.html %}
 </head>
 <body>
-{% include navigation.html %}
+<div class="body">
+{% include bnet-nav.html %}
+{% include site-nav.html %}
 {{ content }}
 {% include scripts.html %}
+</div>
 </body>
 </html>

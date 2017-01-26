@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         watch: {
             stylus: {
-                files: ['src/stylus/**/*.styl'],
+                files: ['src/stylus/**/*'],
                 tasks: ['stylus:dist', 'jekyll:dist']
             },
             browserify: {
@@ -99,9 +99,13 @@ module.exports = function(grunt) {
                 }
             },
             dist: {
-                files: {
-                    'assets/scripts.js': ['src/js/**/*.js']
-                }
+                files: [{
+                    expand: true,
+                    cwd: 'src/js/',
+                    src: '**.js',
+                    dest: 'assets/scripts/',
+                    ext: '.js'
+                }]
             }
         },
         copy: {

@@ -5,6 +5,6 @@ exclude: [node_modules, src, Gemfile, Gemfile.lock, Gruntfile.js, package.json, 
 permalink: /:title
 
 # Page meta
-title: Dnasis
-description: Portfolio project redesigning World of Warcraft Armory pages
+title: WoW Armory Redesign
+description: Portfolio project redesigning World of Warcraft Armory pages, Daniel Singer (chilblane)
 authors: Daniel Singer, Blizzard
