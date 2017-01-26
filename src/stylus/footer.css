@@ -1721,7 +1721,7 @@ input[type="button"].btn-block {
   background-image: linear-gradient(to bottom, #37c0ff, #0097dd);
 }
 .footer .footer-section .blizzard-logo {
-  background: url("/assets/Logo/Logo-blizzardGold-fa279ba5b2.png") no-repeat;
+  background: url("../assets/Logo/Logo-blizzardGold-fa279ba5b2.png") no-repeat;
   background-position: center center;
   background-size: contain;
   width: 113px;
@@ -1835,7 +1835,7 @@ input[type="button"].btn-block {
 .footer .footer-icon {
   width: 24px;
   height: 24px;
-  background-image: url("/assets/Icon/Icon-footer-eda4ed7a11.png");
+  background-image: url("../assets/Icon/Icon-footer-eda4ed7a11.png");
 }
 .footer .footer-icon.footer-icon-edit {
   background-position: 0 -25px;

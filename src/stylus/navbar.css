@@ -273,7 +273,7 @@
   margin-top: 2px;
   margin-left: -4px;
   margin-right: 5px;
-  background-image: url("/assets/images/sprite-16-blue.png");
+  background-image: url("../assets/images/sprite-16-blue.png");
   opacity: 0.8;
 }
 #eu-cookie-compliance .btn:hover [class^="icon-"],
@@ -292,7 +292,7 @@
 #eu-cookie-compliance .btn[disabled] [class^="icon-"],
 #eu-cookie-compliance .btn.disabled [class*=" icon-"],
 #eu-cookie-compliance .btn[disabled] [class*=" icon-"] {
-  background-image: url("/assets/images/sprite-16-white.png") !important;
+  background-image: url("../assets/images/sprite-16-white.png") !important;
   opacity: 0.15 !important;
 }
 #eu-cookie-compliance .btn.disabled:active [class^="icon-"],
@@ -313,7 +313,7 @@
 }
 #eu-cookie-compliance .btn-primary [class^="icon-"],
 #eu-cookie-compliance .btn-primary [class*=" icon-"] {
-  background-image: url("/assets/images/sprite-16-white.png");
+  background-image: url("../assets/images/sprite-16-white.png");
   opacity: 1;
 }
 #eu-cookie-compliance .btn-primary:active [class^="icon-"],
@@ -340,7 +340,7 @@
   content: "";
   width: 20px;
   height: 20px;
-  background-image: url("/assets/images/toolkit/themes/bnet/spinners/spinner-battlenet.png");
+  background-image: url("../assets/images/toolkit/themes/bnet/spinners/spinner-battlenet.png");
   background-position: -140px 0;
   display: inline-block;
   position: absolute;
@@ -355,19 +355,19 @@
   animation: keyframes-loading 0.8s steps(21) infinite;
 }
 #eu-cookie-compliance .btn.btn-link.loading:before {
-  background-image: url("/assets/images/toolkit/themes/bnet/spinners/spinner-battlenet.png");
+  background-image: url("../assets/images/toolkit/themes/bnet/spinners/spinner-battlenet.png");
 }
 #eu-cookie-compliance .btn.disabled-loading {
   height: 34px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   #eu-cookie-compliance .btn.loading:before {
-    background-image: url("/assets/images/toolkit/themes/bnet/spinners/spinner-40-battlenet.png");
+    background-image: url("../assets/images/toolkit/themes/bnet/spinners/spinner-40-battlenet.png");
     background-size: 420px 20px;
   }
   #eu-cookie-compliance .btn.btn-primary.loading:before,
   .btn#eu-cookie-compliance .btn-primary.loading:before {
-    background-image: url("/assets/images/toolkit/themes/bnet/spinners/spinner-40-battlenet.png");
+    background-image: url("../assets/images/toolkit/themes/bnet/spinners/spinner-40-battlenet.png");
     background-size: 420px 20px;
   }
 }
@@ -380,7 +380,7 @@
   overflow: hidden;
   line-height: 16px;
   vertical-align: top;
-  background-image: url("/assets/images/sprite-16-white.png");
+  background-image: url("../assets/images/sprite-16-white.png");
   background-repeat: no-repeat;
   background-position: -112px -96px;
   text-indent: -9999px;
@@ -411,7 +411,7 @@ button.nav-client .nav-close {
 .nav-client .caret {
   content: "";
   margin: 2px;
-  background-image: url("/assets/images/sprite-16-white.png");
+  background-image: url("../assets/images/sprite-16-white.png");
   display: inline-block;
   width: 16px;
   height: 16px;
@@ -425,7 +425,7 @@ button.nav-client .nav-close {
   background-position: -64px -256px;
 }
 .navbar .nav-client .caret {
-  background-image: url("/assets/images/sprite-16-white.png");
+  background-image: url("../assets/images/sprite-16-white.png");
 }
 .dropdown-toggle > .nav-client .caret,
 .nav-client .dropdown-toggle > .caret {
@@ -486,7 +486,7 @@ button.nav-client .nav-close {
 }
 .nav-client .dropdown-menu [class^="icon-"],
 .nav-client .dropdown-menu [class*=" icon-"] {
-  background-image: url("/assets/images/sprite-16-blue.png");
+  background-image: url("../assets/images/sprite-16-blue.png");
 }
 .nav-client .dropdown-menu [class^="icon-"]:not(.icon-external-link),
 .nav-client .dropdown-menu [class*=" icon-"]:not(.icon-external-link) {
@@ -576,7 +576,7 @@ button.nav-client .nav-close {
 }
 .nav-client .dropdown-menu > .disabled > a > [class^="icon-"],
 .nav-client .dropdown-menu > .disabled > a > [class*=" icon-"] {
-  background-image: url("/assets/images/sprite-16-white.png");
+  background-image: url("../assets/images/sprite-16-white.png");
   opacity: 0.2;
 }
 .dropdown-submenu > .nav-client .dropdown-menu {
@@ -618,9 +618,9 @@ button.nav-client .nav-close {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center bottom, center top, center -100px;
-  background-image: url("/assets/images/toolkit/defaults/modals/modal-gradient.png"), -webkit-linear-gradient(top, #263145 0%, #1d222c 70%), -webkit-radial-gradient(50% 100px, closest-side, #263145, #1d222c);
-  background-image: url("/assets/images/toolkit/defaults/modals/modal-gradient.png"), -moz-linear-gradient(top, #263145 0%, #1d222c 70%), -moz-radial-gradient(50% 100px, closest-side, #263145, #1d222c);
-  background-image: url("/assets/images/toolkit/defaults/modals/modal-gradient.png"), linear-gradient(top, #263145 0%, #1d222c 70%), radial-gradient(50% 100px, closest-side, #263145, #1d222c);
+  background-image: url("../assets/images/toolkit/defaults/modals/modal-gradient.png"), -webkit-linear-gradient(top, #263145 0%, #1d222c 70%), -webkit-radial-gradient(50% 100px, closest-side, #263145, #1d222c);
+  background-image: url("../assets/images/toolkit/defaults/modals/modal-gradient.png"), -moz-linear-gradient(top, #263145 0%, #1d222c 70%), -moz-radial-gradient(50% 100px, closest-side, #263145, #1d222c);
+  background-image: url("../assets/images/toolkit/defaults/modals/modal-gradient.png"), linear-gradient(top, #263145 0%, #1d222c 70%), radial-gradient(50% 100px, closest-side, #263145, #1d222c);
   background-clip: padding-box;
   outline: none;
 }
@@ -764,7 +764,7 @@ button.nav-client .nav-close {
   #eu-cookie-compliance .btn-primary [class*=" icon-"],
   .nav-client .dropdown-menu > .disabled > a > [class^="icon-"],
   .nav-client .dropdown-menu > .disabled > a > [class*=" icon-"] {
-    background-image: url("/assets/images/sprite-32-white.png");
+    background-image: url("../assets/images/sprite-32-white.png");
     background-size: 160px 480px;
   }
 }
@@ -1093,7 +1093,7 @@ to {
   margin-top: 2px;
   margin-left: -4px;
   margin-right: 5px;
-  background-image: url("/assets/images/sprite-16-blue.png");
+  background-image: url("../assets/images/sprite-16-blue.png");
   opacity: 0.8;
 }
 .nav-client .nav-btn:hover [class^="icon-"],
@@ -1164,7 +1164,7 @@ to {
 }
 .nav-client .nav-btn [class^="icon-"],
 .nav-client .nav-btn [class*=" icon-"] {
-  background-image: url("/assets/images/sprite-16-white.png");
+  background-image: url("../assets/images/sprite-16-white.png");
   opacity: 1;
 }
 .nav-client .nav-btn:active [class^="icon-"],
@@ -1706,7 +1706,7 @@ to {
 }
 .nav-client .nav-home {
   display: inline-block;
-  background: url("/assets/images/logo-bnet.png") no-repeat -5px -5px;
+  background: url("../assets/images/logo-bnet.png") no-repeat -5px -5px;
   width: 60px;
   height: 60px;
   padding-right: 10px;
@@ -1715,7 +1715,7 @@ to {
   background-position: -5px -75px;
 }
 .nav-client.compact .nav-home {
-  background-image: url("/assets/images/logo-bnet-compact.png");
+  background-image: url("../assets/images/logo-bnet-compact.png");
 }
 .nav-client .nav-bar-item {
   font-size: 17px;
@@ -1741,7 +1741,7 @@ a.nav-client .nav-bar-item.active {
 }
 .nav-client [class^="nav-icon-"],
 .nav-client [class*=" nav-icon-"] {
-  background-image: url("/assets/images/sprite-16-blue.png");
+  background-image: url("../assets/images/sprite-16-blue.png");
   margin: 2px;
   display: inline-block;
   width: 16px;
@@ -1756,7 +1756,7 @@ a.nav-client .nav-bar-item.active {
 }
 .nav-client [class^="nav-icon-24-"],
 .nav-client [class*=" nav-icon-24-"] {
-  background-image: url("/assets/images/sprite-24-blue.png");
+  background-image: url("../assets/images/sprite-24-blue.png");
   width: 24px;
   height: 24px;
   margin: -2px 8px -2px 2px;
@@ -1825,7 +1825,7 @@ a.nav-client .nav-bar-item.active {
 .nav-client #nav-client-bar .games-menu .game-icon i {
   width: 70px;
   height: 70px;
-  background-image: url("/assets/images/game-icons-70.png");
+  background-image: url("../assets/images/game-icons-70.png");
 }
 .nav-client #nav-client-bar .games-menu .game-icon .nav-icon-wow {
   background-position: 0 0;
@@ -1847,7 +1847,7 @@ a.nav-client .nav-bar-item.active {
 }
 .nav-client .nav-icon-bell {
   display: inline-block;
-  background: url("/assets/images/icon-bell.png") no-repeat;
+  background: url("../assets/images/icon-bell.png") no-repeat;
   width: 30px;
   height: 30px;
   margin: 0;
@@ -2067,7 +2067,7 @@ a.nav-client .nav-bar-item.active {
   width: 27px;
   height: 15px;
   vertical-align: middle;
-  background: url("/assets/images/employee.gif") no-repeat center;
+  background: url("../assets/images/employee.gif") no-repeat center;
   position: relative;
 }
 .nav-client .username--loggedout {
@@ -2204,11 +2204,11 @@ a.nav-client .nav-bar-item.active {
   line-height: 40px;
 }
 .nav-client .global-menu {
-  background: url("/assets/images/bnet-logo-mobile.jpg") no-repeat;
+  background: url("../assets/images/bnet-logo-mobile.jpg") no-repeat;
   background-size: cover;
 }
 .nav-client .global-menu.cn {
-  background: url("/assets/images/cn-bnet-logo-mobile.jpg") no-repeat;
+  background: url("../assets/images/cn-bnet-logo-mobile.jpg") no-repeat;
 }
 .nav-client .menu-header {
   background-color: #232935;
@@ -2282,7 +2282,7 @@ a.nav-client .nav-bar-item.active {
   width: 30px;
   height: 30px;
   vertical-align: middle;
-  background-image: url("/assets/images/game-icons-30.png");
+  background-image: url("../assets/images/game-icons-30.png");
 }
 .nav-client .nav-mobile-menu-wrap .game-icon i.nav-icon-wow {
   background-position: 0 0;
@@ -2307,7 +2307,7 @@ a.nav-client .nav-bar-item.active {
 }
 .nav-client .nav-hamburger-menu-icon {
   float: left;
-  background-image: url("/assets/images/icon-blue-menu.png");
+  background-image: url("../assets/images/icon-blue-menu.png");
   background-size: 44px;
   height: 44px;
   width: 44px;
@@ -2317,7 +2317,7 @@ a.nav-client .nav-bar-item.active {
 }
 .nav-client .nav-global-menu-icon {
   float: right;
-  background-image: url("/assets/images/icon-blue-bnet.png");
+  background-image: url("../assets/images/icon-blue-bnet.png");
   background-size: 44px;
   height: 44px;
   width: 44px;
@@ -2326,7 +2326,7 @@ a.nav-client .nav-bar-item.active {
   right: 0;
 }
 .nav-client .nav-remove-icon {
-  background-image: url("/assets/images/close-48-blue.png");
+  background-image: url("../assets/images/close-48-blue.png");
   background-size: contain;
 }
 .nav-client #logout-nav-box {
