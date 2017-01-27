@@ -41,27 +41,27 @@ textarea{overflow:auto}
 optgroup{font-weight:700}
 table{border-collapse:collapse;border-spacing:0}
 td,th{padding:0}
-@font-face{font-family:Blizzard;font-style:normal;font-weight:300;src:local("Blizzard Light"),local("Blizzard-Light"),url(https://worldofwarcraft.com/static/fonts/blizzard.light.woff) format("woff")}
-@font-face{font-family:Blizzard;font-style:italic;font-weight:300;src:local("Blizzard Light Italic"),local("Blizzard-LightItalic"),url(https://worldofwarcraft.com/static/fonts/blizzard.light-italic.woff) format("woff")}
-@font-face{font-family:Blizzard;font-style:normal;font-weight:400;src:local("Blizzard"),url(https://worldofwarcraft.com/static/fonts/blizzard.regular.woff) format("woff")}
-@font-face{font-family:Blizzard;font-style:italic;font-weight:400;src:local("Blizzard Italic"),local("Blizzard-Italic"),url(https://worldofwarcraft.com/static/fonts/blizzard.regular-italic.woff) format("woff")}
-@font-face{font-family:Blizzard;font-style:normal;font-weight:700;src:local("Blizzard Bold"),local("Blizzard-Bold"),url(https://worldofwarcraft.com/static/fonts/blizzard.bold.woff) format("woff")}
-@font-face{font-family:Blizzard;font-style:italic;font-weight:700;src:local("Blizzard Bold Italic"),local("Blizzard-BoldItalic"),url(https://worldofwarcraft.com/static/fonts/blizzard.bold-italic.woff) format("woff")}
-@font-face{font-family:"Nanum Gothic";font-style:normal;font-weight:400;src:local("Nanum Gothic"),local("NanumGothic"),url(https://worldofwarcraft.com/static/fonts/NanumGothic-Regular.woff2) format("woff2"),url(https://worldofwarcraft.com/static/fonts/NanumGothic-Regular.woff) format("woff")}
-@font-face{font-family:"Nanum Gothic";font-style:normal;font-weight:700;src:local("Nanum Gothic Bold"),local("NanumGothic-Bold"),url(https://worldofwarcraft.com/static/fonts/NanumGothic-Bold.woff2) format("woff2"),url(https://worldofwarcraft.com/static/fonts/NanumGothic-Bold.woff) format("woff")}
-@font-face{font-family:"Futura Demi";font-style:normal;font-weight:700;src:local("Futura Demi"),local("FuturaDemi"),url(https://worldofwarcraft.com/static/fonts/FuturaDemiW08-Regular.woff2) format("woff2"),url(https://worldofwarcraft.com/static/fonts/FuturaDemiW08-Regular.woff) format("woff")}
-@font-face{font-family:"Open Sans";font-style:normal;font-weight:300;src:local("Open Sans Light"),local("OpenSans-Light"),url(https://worldofwarcraft.com/static/fonts/OpenSans-Light.woff) format("woff")}
-@font-face{font-family:"Open Sans";font-style:italic;font-weight:300;src:local("Open Sans Light Italic"),local("OpenSans-LightItalic"),url(https://worldofwarcraft.com/static/fonts/OpenSans-LightItalic.woff) format("woff")}
-@font-face{font-family:"Open Sans";font-style:normal;font-weight:400;src:local("Open Sans"),local("OpenSans"),url(https://worldofwarcraft.com/static/fonts/OpenSans-Regular.woff) format("woff")}
-@font-face{font-family:"Open Sans";font-style:italic;font-weight:400;src:local("Open Sans Italic"),local("OpenSans-Italic"),url(https://worldofwarcraft.com/static/fonts/OpenSans-Italic.woff) format("woff")}
-@font-face{font-family:"Open Sans";font-style:normal;font-weight:700;src:local("Open Sans Bold"),local("OpenSans-Bold"),url(https://worldofwarcraft.com/static/fonts/OpenSans-Bold.woff) format("woff")}
-@font-face{font-family:"Open Sans";font-style:italic;font-weight:700;src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(https://worldofwarcraft.com/static/fonts/OpenSans-BoldItalic.woff) format("woff")}
-@font-face{font-family:"Semplicita Pro";font-style:normal;font-weight:300;src:local("Semplicita Pro Light"),local("SemplicitaPro-Light"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-Light.woff2) format("woff2"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-Light.woff) format("woff")}
-@font-face{font-family:"Semplicita Pro";font-style:italic;font-weight:300;src:local("Semplicita Pro Light Italic"),local("SemplicitaPro-LightItalic"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-LightItalic.woff2) format("woff2"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-LightItalic.woff) format("woff")}
-@font-face{font-family:"Semplicita Pro";font-style:normal;font-weight:400;src:local("Semplicita Pro"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-Regular.woff2) format("woff2"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-Regular.woff) format("woff")}
-@font-face{font-family:"Semplicita Pro";font-style:italic;font-weight:400;src:local("Semplicita Pro Italic"),local("SemplicitaPro-Italic"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-Italic.woff2) format("woff2"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-Italic.woff) format("woff")}
-@font-face{font-family:"Semplicita Pro";font-style:normal;font-weight:700;src:local("Semplicita Pro Bold"),local("SemplicitaPro-Bold"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-Bold.woff2) format("woff2"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-Bold.woff) format("woff")}
-@font-face{font-family:"Semplicita Pro";font-style:italic;font-weight:700;src:local("Semplicita Pro Bold Italic"),local("SemplicitaPro-BoldItalic"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-BoldItalic.woff2) format("woff2"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-BoldItalic.woff) format("woff")}
+@font-face{font-family:Blizzard;font-style:normal;font-weight:300;src:local("Blizzard Light"),local("Blizzard-Light"),url(../assets/fonts/blizzard.light.woff) format("woff")}
+@font-face{font-family:Blizzard;font-style:italic;font-weight:300;src:local("Blizzard Light Italic"),local("Blizzard-LightItalic"),url(../assets/fonts/blizzard.light-italic.woff) format("woff")}
+@font-face{font-family:Blizzard;font-style:normal;font-weight:400;src:local("Blizzard"),url(../assets/fonts/blizzard.regular.woff) format("woff")}
+@font-face{font-family:Blizzard;font-style:italic;font-weight:400;src:local("Blizzard Italic"),local("Blizzard-Italic"),url(../assets/fonts/blizzard.regular-italic.woff) format("woff")}
+@font-face{font-family:Blizzard;font-style:normal;font-weight:700;src:local("Blizzard Bold"),local("Blizzard-Bold"),url(../assets/fonts/blizzard.bold.woff) format("woff")}
+@font-face{font-family:Blizzard;font-style:italic;font-weight:700;src:local("Blizzard Bold Italic"),local("Blizzard-BoldItalic"),url(../assets/fonts/blizzard.bold-italic.woff) format("woff")}
+@font-face{font-family:"Nanum Gothic";font-style:normal;font-weight:400;src:local("Nanum Gothic"),local("NanumGothic"),url(../assets/fonts/NanumGothic-Regular.woff2) format("woff2"),url(../assets/fonts/NanumGothic-Regular.woff) format("woff")}
+@font-face{font-family:"Nanum Gothic";font-style:normal;font-weight:700;src:local("Nanum Gothic Bold"),local("NanumGothic-Bold"),url(../assets/fonts/NanumGothic-Bold.woff2) format("woff2"),url(../assets/fonts/NanumGothic-Bold.woff) format("woff")}
+@font-face{font-family:"Futura Demi";font-style:normal;font-weight:700;src:local("Futura Demi"),local("FuturaDemi"),url(../assets/fonts/FuturaDemiW08-Regular.woff2) format("woff2"),url(../assets/fonts/FuturaDemiW08-Regular.woff) format("woff")}
+@font-face{font-family:"Open Sans";font-style:normal;font-weight:300;src:local("Open Sans Light"),local("OpenSans-Light"),url(../assets/fonts/OpenSans-Light.woff) format("woff")}
+@font-face{font-family:"Open Sans";font-style:italic;font-weight:300;src:local("Open Sans Light Italic"),local("OpenSans-LightItalic"),url(../assets/fonts/OpenSans-LightItalic.woff) format("woff")}
+@font-face{font-family:"Open Sans";font-style:normal;font-weight:400;src:local("Open Sans"),local("OpenSans"),url(../assets/fonts/OpenSans-Regular.woff) format("woff")}
+@font-face{font-family:"Open Sans";font-style:italic;font-weight:400;src:local("Open Sans Italic"),local("OpenSans-Italic"),url(../assets/fonts/OpenSans-Italic.woff) format("woff")}
+@font-face{font-family:"Open Sans";font-style:normal;font-weight:700;src:local("Open Sans Bold"),local("OpenSans-Bold"),url(../assets/fonts/OpenSans-Bold.woff) format("woff")}
+@font-face{font-family:"Open Sans";font-style:italic;font-weight:700;src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(../assets/fonts/OpenSans-BoldItalic.woff) format("woff")}
+@font-face{font-family:"Semplicita Pro";font-style:normal;font-weight:300;src:local("Semplicita Pro Light"),local("SemplicitaPro-Light"),url(../assets/fonts/SemplicitaW01-Light.woff2) format("woff2"),url(../assets/fonts/SemplicitaW01-Light.woff) format("woff")}
+@font-face{font-family:"Semplicita Pro";font-style:italic;font-weight:300;src:local("Semplicita Pro Light Italic"),local("SemplicitaPro-LightItalic"),url(../assets/fonts/SemplicitaW01-LightItalic.woff2) format("woff2"),url(../assets/fonts/SemplicitaW01-LightItalic.woff) format("woff")}
+@font-face{font-family:"Semplicita Pro";font-style:normal;font-weight:400;src:local("Semplicita Pro"),url(../assets/fonts/SemplicitaW01-Regular.woff2) format("woff2"),url(../assets/fonts/SemplicitaW01-Regular.woff) format("woff")}
+@font-face{font-family:"Semplicita Pro";font-style:italic;font-weight:400;src:local("Semplicita Pro Italic"),local("SemplicitaPro-Italic"),url(../assets/fonts/SemplicitaW01-Italic.woff2) format("woff2"),url(../assets/fonts/SemplicitaW01-Italic.woff) format("woff")}
+@font-face{font-family:"Semplicita Pro";font-style:normal;font-weight:700;src:local("Semplicita Pro Bold"),local("SemplicitaPro-Bold"),url(../assets/fonts/SemplicitaW01-Bold.woff2) format("woff2"),url(../assets/fonts/SemplicitaW01-Bold.woff) format("woff")}
+@font-face{font-family:"Semplicita Pro";font-style:italic;font-weight:700;src:local("Semplicita Pro Bold Italic"),local("SemplicitaPro-BoldItalic"),url(../assets/fonts/SemplicitaW01-BoldItalic.woff2) format("woff2"),url(../assets/fonts/SemplicitaW01-BoldItalic.woff) format("woff")}
 .font-size-xxLarge{font-size:48px;line-height:63px}
 @media (min-width:720px){.font-size-xxLarge{font-size:54.4px;line-height:71.4px}
 }
@@ -1433,27 +1433,27 @@ to{opacity:0}
 @media (min-width:540px){.Comment--child{padding-left:60px}
 }
 .Comment-created{color:#aaa}
-@font-face{font-family:Blizzard;font-style:normal;font-weight:300;src:local("Blizzard Light"),local("Blizzard-Light"),url(https://worldofwarcraft.com/static/fonts/blizzard.light.woff) format("woff")}
-@font-face{font-family:Blizzard;font-style:italic;font-weight:300;src:local("Blizzard Light Italic"),local("Blizzard-LightItalic"),url(https://worldofwarcraft.com/static/fonts/blizzard.light-italic.woff) format("woff")}
-@font-face{font-family:Blizzard;font-style:normal;font-weight:400;src:local("Blizzard"),url(https://worldofwarcraft.com/static/fonts/blizzard.regular.woff) format("woff")}
-@font-face{font-family:Blizzard;font-style:italic;font-weight:400;src:local("Blizzard Italic"),local("Blizzard-Italic"),url(https://worldofwarcraft.com/static/fonts/blizzard.regular-italic.woff) format("woff")}
-@font-face{font-family:Blizzard;font-style:normal;font-weight:700;src:local("Blizzard Bold"),local("Blizzard-Bold"),url(https://worldofwarcraft.com/static/fonts/blizzard.bold.woff) format("woff")}
-@font-face{font-family:Blizzard;font-style:italic;font-weight:700;src:local("Blizzard Bold Italic"),local("Blizzard-BoldItalic"),url(https://worldofwarcraft.com/static/fonts/blizzard.bold-italic.woff) format("woff")}
-@font-face{font-family:"Nanum Gothic";font-style:normal;font-weight:400;src:local("Nanum Gothic"),local("NanumGothic"),url(https://worldofwarcraft.com/static/fonts/NanumGothic-Regular.woff2) format("woff2"),url(https://worldofwarcraft.com/static/fonts/NanumGothic-Regular.woff) format("woff")}
-@font-face{font-family:"Nanum Gothic";font-style:normal;font-weight:700;src:local("Nanum Gothic Bold"),local("NanumGothic-Bold"),url(https://worldofwarcraft.com/static/fonts/NanumGothic-Bold.woff2) format("woff2"),url(https://worldofwarcraft.com/static/fonts/NanumGothic-Bold.woff) format("woff")}
-@font-face{font-family:"Futura Demi";font-style:normal;font-weight:700;src:local("Futura Demi"),local("FuturaDemi"),url(https://worldofwarcraft.com/static/fonts/FuturaDemiW08-Regular.woff2) format("woff2"),url(https://worldofwarcraft.com/static/fonts/FuturaDemiW08-Regular.woff) format("woff")}
-@font-face{font-family:"Open Sans";font-style:normal;font-weight:300;src:local("Open Sans Light"),local("OpenSans-Light"),url(https://worldofwarcraft.com/static/fonts/OpenSans-Light.woff) format("woff")}
-@font-face{font-family:"Open Sans";font-style:italic;font-weight:300;src:local("Open Sans Light Italic"),local("OpenSans-LightItalic"),url(https://worldofwarcraft.com/static/fonts/OpenSans-LightItalic.woff) format("woff")}
-@font-face{font-family:"Open Sans";font-style:normal;font-weight:400;src:local("Open Sans"),local("OpenSans"),url(https://worldofwarcraft.com/static/fonts/OpenSans-Regular.woff) format("woff")}
-@font-face{font-family:"Open Sans";font-style:italic;font-weight:400;src:local("Open Sans Italic"),local("OpenSans-Italic"),url(https://worldofwarcraft.com/static/fonts/OpenSans-Italic.woff) format("woff")}
-@font-face{font-family:"Open Sans";font-style:normal;font-weight:700;src:local("Open Sans Bold"),local("OpenSans-Bold"),url(https://worldofwarcraft.com/static/fonts/OpenSans-Bold.woff) format("woff")}
-@font-face{font-family:"Open Sans";font-style:italic;font-weight:700;src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(https://worldofwarcraft.com/static/fonts/OpenSans-BoldItalic.woff) format("woff")}
-@font-face{font-family:"Semplicita Pro";font-style:normal;font-weight:300;src:local("Semplicita Pro Light"),local("SemplicitaPro-Light"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-Light.woff2) format("woff2"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-Light.woff) format("woff")}
-@font-face{font-family:"Semplicita Pro";font-style:italic;font-weight:300;src:local("Semplicita Pro Light Italic"),local("SemplicitaPro-LightItalic"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-LightItalic.woff2) format("woff2"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-LightItalic.woff) format("woff")}
-@font-face{font-family:"Semplicita Pro";font-style:normal;font-weight:400;src:local("Semplicita Pro"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-Regular.woff2) format("woff2"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-Regular.woff) format("woff")}
-@font-face{font-family:"Semplicita Pro";font-style:italic;font-weight:400;src:local("Semplicita Pro Italic"),local("SemplicitaPro-Italic"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-Italic.woff2) format("woff2"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-Italic.woff) format("woff")}
-@font-face{font-family:"Semplicita Pro";font-style:normal;font-weight:700;src:local("Semplicita Pro Bold"),local("SemplicitaPro-Bold"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-Bold.woff2) format("woff2"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-Bold.woff) format("woff")}
-@font-face{font-family:"Semplicita Pro";font-style:italic;font-weight:700;src:local("Semplicita Pro Bold Italic"),local("SemplicitaPro-BoldItalic"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-BoldItalic.woff2) format("woff2"),url(https://worldofwarcraft.com/static/fonts/SemplicitaW01-BoldItalic.woff) format("woff")}
+@font-face{font-family:Blizzard;font-style:normal;font-weight:300;src:local("Blizzard Light"),local("Blizzard-Light"),url(../assets/fonts/blizzard.light.woff) format("woff")}
+@font-face{font-family:Blizzard;font-style:italic;font-weight:300;src:local("Blizzard Light Italic"),local("Blizzard-LightItalic"),url(../assets/fonts/blizzard.light-italic.woff) format("woff")}
+@font-face{font-family:Blizzard;font-style:normal;font-weight:400;src:local("Blizzard"),url(../assets/fonts/blizzard.regular.woff) format("woff")}
+@font-face{font-family:Blizzard;font-style:italic;font-weight:400;src:local("Blizzard Italic"),local("Blizzard-Italic"),url(../assets/fonts/blizzard.regular-italic.woff) format("woff")}
+@font-face{font-family:Blizzard;font-style:normal;font-weight:700;src:local("Blizzard Bold"),local("Blizzard-Bold"),url(../assets/fonts/blizzard.bold.woff) format("woff")}
+@font-face{font-family:Blizzard;font-style:italic;font-weight:700;src:local("Blizzard Bold Italic"),local("Blizzard-BoldItalic"),url(../assets/fonts/blizzard.bold-italic.woff) format("woff")}
+@font-face{font-family:"Nanum Gothic";font-style:normal;font-weight:400;src:local("Nanum Gothic"),local("NanumGothic"),url(../assets/fonts/NanumGothic-Regular.woff2) format("woff2"),url(../assets/fonts/NanumGothic-Regular.woff) format("woff")}
+@font-face{font-family:"Nanum Gothic";font-style:normal;font-weight:700;src:local("Nanum Gothic Bold"),local("NanumGothic-Bold"),url(../assets/fonts/NanumGothic-Bold.woff2) format("woff2"),url(../assets/fonts/NanumGothic-Bold.woff) format("woff")}
+@font-face{font-family:"Futura Demi";font-style:normal;font-weight:700;src:local("Futura Demi"),local("FuturaDemi"),url(../assets/fonts/FuturaDemiW08-Regular.woff2) format("woff2"),url(../assets/fonts/FuturaDemiW08-Regular.woff) format("woff")}
+@font-face{font-family:"Open Sans";font-style:normal;font-weight:300;src:local("Open Sans Light"),local("OpenSans-Light"),url(../assets/fonts/OpenSans-Light.woff) format("woff")}
+@font-face{font-family:"Open Sans";font-style:italic;font-weight:300;src:local("Open Sans Light Italic"),local("OpenSans-LightItalic"),url(../assets/fonts/OpenSans-LightItalic.woff) format("woff")}
+@font-face{font-family:"Open Sans";font-style:normal;font-weight:400;src:local("Open Sans"),local("OpenSans"),url(../assets/fonts/OpenSans-Regular.woff) format("woff")}
+@font-face{font-family:"Open Sans";font-style:italic;font-weight:400;src:local("Open Sans Italic"),local("OpenSans-Italic"),url(../assets/fonts/OpenSans-Italic.woff) format("woff")}
+@font-face{font-family:"Open Sans";font-style:normal;font-weight:700;src:local("Open Sans Bold"),local("OpenSans-Bold"),url(../assets/fonts/OpenSans-Bold.woff) format("woff")}
+@font-face{font-family:"Open Sans";font-style:italic;font-weight:700;src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(../assets/fonts/OpenSans-BoldItalic.woff) format("woff")}
+@font-face{font-family:"Semplicita Pro";font-style:normal;font-weight:300;src:local("Semplicita Pro Light"),local("SemplicitaPro-Light"),url(../assets/fonts/SemplicitaW01-Light.woff2) format("woff2"),url(../assets/fonts/SemplicitaW01-Light.woff) format("woff")}
+@font-face{font-family:"Semplicita Pro";font-style:italic;font-weight:300;src:local("Semplicita Pro Light Italic"),local("SemplicitaPro-LightItalic"),url(../assets/fonts/SemplicitaW01-LightItalic.woff2) format("woff2"),url(../assets/fonts/SemplicitaW01-LightItalic.woff) format("woff")}
+@font-face{font-family:"Semplicita Pro";font-style:normal;font-weight:400;src:local("Semplicita Pro"),url(../assets/fonts/SemplicitaW01-Regular.woff2) format("woff2"),url(../assets/fonts/SemplicitaW01-Regular.woff) format("woff")}
+@font-face{font-family:"Semplicita Pro";font-style:italic;font-weight:400;src:local("Semplicita Pro Italic"),local("SemplicitaPro-Italic"),url(../assets/fonts/SemplicitaW01-Italic.woff2) format("woff2"),url(../assets/fonts/SemplicitaW01-Italic.woff) format("woff")}
+@font-face{font-family:"Semplicita Pro";font-style:normal;font-weight:700;src:local("Semplicita Pro Bold"),local("SemplicitaPro-Bold"),url(../assets/fonts/SemplicitaW01-Bold.woff2) format("woff2"),url(../assets/fonts/SemplicitaW01-Bold.woff) format("woff")}
+@font-face{font-family:"Semplicita Pro";font-style:italic;font-weight:700;src:local("Semplicita Pro Bold Italic"),local("SemplicitaPro-BoldItalic"),url(../assets/fonts/SemplicitaW01-BoldItalic.woff2) format("woff2"),url(../assets/fonts/SemplicitaW01-BoldItalic.woff) format("woff")}
 .font-size-xxLarge{font-size:48px;line-height:63px}
 @media (min-width:720px){.font-size-xxLarge{font-size:54.4px;line-height:71.4px}
 }
@@ -6466,25 +6466,25 @@ to {
   font-family: "Blizzard";
   font-style: normal;
   font-weight: 300;
-  src: local("Blizzard Light"), local("Blizzard-Light"), url("https://worldofwarcraft.com/static/fonts/blizzard.light.woff") format("woff");
+  src: local("Blizzard Light"), local("Blizzard-Light"), url("../assets/fonts/blizzard.light.woff") format("woff");
 }
 @font-face {
   font-family: "Blizzard";
   font-style: normal;
   font-weight: 400;
-  src: local("Blizzard"), local("Blizzard"), url("https://worldofwarcraft.com/static/fonts/blizzard.regular.woff") format("woff");
+  src: local("Blizzard"), local("Blizzard"), url("../assets/fonts/blizzard.regular.woff") format("woff");
 }
 @font-face {
   font-family: "Blizzard";
   font-style: italic;
   font-weight: 400;
-  src: local("Blizzard Italic"), local("Blizzard-Italic"), url("https://worldofwarcraft.com/static/fonts/blizzard.regular-italic.woff") format("woff");
+  src: local("Blizzard Italic"), local("Blizzard-Italic"), url("../assets/fonts/blizzard.regular-italic.woff") format("woff");
 }
 @font-face {
   font-family: "Blizzard";
   font-style: normal;
   font-weight: 700;
-  src: local("Blizzard Bold"), local("Blizzard-Bold"), url("https://worldofwarcraft.com/static/fonts/blizzard.bold.woff") format("woff");
+  src: local("Blizzard Bold"), local("Blizzard-Bold"), url("../assets/fonts/blizzard.bold.woff") format("woff");
 }
 /**
  * @fileOverview nav-client header styles

@@ -1570,25 +1570,25 @@ to {
   font-family: "Blizzard";
   font-style: normal;
   font-weight: 300;
-  src: local("Blizzard Light"), local("Blizzard-Light"), url("https://worldofwarcraft.com/static/fonts/blizzard.light.woff") format("woff");
+  src: local("Blizzard Light"), local("Blizzard-Light"), url("../assets/fonts/blizzard.light.woff") format("woff");
 }
 @font-face {
   font-family: "Blizzard";
   font-style: normal;
   font-weight: 400;
-  src: local("Blizzard"), local("Blizzard"), url("https://worldofwarcraft.com/static/fonts/blizzard.regular.woff") format("woff");
+  src: local("Blizzard"), local("Blizzard"), url("../assets/fonts/blizzard.regular.woff") format("woff");
 }
 @font-face {
   font-family: "Blizzard";
   font-style: italic;
   font-weight: 400;
-  src: local("Blizzard Italic"), local("Blizzard-Italic"), url("https://worldofwarcraft.com/static/fonts/blizzard.regular-italic.woff") format("woff");
+  src: local("Blizzard Italic"), local("Blizzard-Italic"), url("../assets/fonts/blizzard.regular-italic.woff") format("woff");
 }
 @font-face {
   font-family: "Blizzard";
   font-style: normal;
   font-weight: 700;
-  src: local("Blizzard Bold"), local("Blizzard-Bold"), url("https://worldofwarcraft.com/static/fonts/blizzard.bold.woff") format("woff");
+  src: local("Blizzard Bold"), local("Blizzard-Bold"), url("../assets/fonts/blizzard.bold.woff") format("woff");
 }
 /**
  * @fileOverview nav-client header styles
