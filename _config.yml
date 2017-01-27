@@ -1,8 +1,9 @@
 # Server
-url: http://www.chilblane.com
-baseurl: /wow-armory-redesign
+url: http://www.chilblane.com/wow-armory-redesign
+baseurl: ""
 exclude: [node_modules, src, Gemfile, Gemfile.lock, Gruntfile.js, package.json, README.md]
 permalink: /:title
+repository: chilblane/wow-armory-redesign
 
 # Page meta
 title: WoW Armory Redesign
