@@ -19,6 +19,7 @@ module.exports = function(grunt) {
             jekyll: {
                 files: [
                     'index.html',
+                    'dnasis.html',
                     '_includes/*',
                     '_layouts/*'
                 ],
