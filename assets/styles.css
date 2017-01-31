@@ -4900,8 +4900,8 @@ html.touch .Scrollable{overflow-x:scroll;-webkit-overflow-scrolling:touch}
   bottom: 0;
   left: auto;
   right: 0;
-  width: 60%;
-  background-position: 50% 80%;
+  width: 50%;
+  background-position: 0 100%;
   background-repeat: no-repeat;
 }
 .nav-client .nav-collapse {
