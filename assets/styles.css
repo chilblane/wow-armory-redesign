@@ -4894,6 +4894,16 @@ html.touch .Scrollable{overflow-x:scroll;-webkit-overflow-scrolling:touch}
 }
 .VideoPane--disabled .VideoPane-bg>.VideoPane-video{display:none}
 
+.masthead-hero-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  width: 60%;
+  background-position: 50% 80%;
+  background-repeat: no-repeat;
+}
 .nav-client .nav-collapse {
   position: relative;
   height: 0;
