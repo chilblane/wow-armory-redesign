@@ -4904,6 +4904,30 @@ html.touch .Scrollable{overflow-x:scroll;-webkit-overflow-scrolling:touch}
   background-position: 0 100%;
   background-repeat: no-repeat;
 }
+.Item-name.Item--POOR {
+  color: #9d9d9d;
+}
+.Item-name.Item--COMMON {
+  color: #fff;
+}
+.Item-name.Item--UNCOMMON {
+  color: #1eff00;
+}
+.Item-name.Item--RARE {
+  color: #0081ff;
+}
+.Item-name.Item--EPIC {
+  color: #c600ff;
+}
+.Item-name.Item--LEGENDARY {
+  color: #ff8000;
+}
+.Item-name.Item--ARTIFACT {
+  color: #e5cc80;
+}
+.Item-name.Item--HEIRLOOM {
+  color: #0cf;
+}
 .nav-client .nav-collapse {
   position: relative;
   height: 0;
