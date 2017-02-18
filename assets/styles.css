@@ -4904,6 +4904,16 @@ html.touch .Scrollable{overflow-x:scroll;-webkit-overflow-scrolling:touch}
   background-position: 0 100%;
   background-repeat: no-repeat;
 }
+.GameIcon-cosmetic {
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  width: 16px;
+  height: 16px;
+  border: 8px solid #ffb3ff;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
 .Item-name.Item--POOR {
   color: #9d9d9d;
 }
