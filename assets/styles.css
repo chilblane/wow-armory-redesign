@@ -4904,6 +4904,21 @@ html.touch .Scrollable{overflow-x:scroll;-webkit-overflow-scrolling:touch}
   background-position: 0 100%;
   background-repeat: no-repeat;
 }
+.Character-Inventory {
+  position: relative;
+}
+.Character-Inventory-bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position: top center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
 .GameIcon-cosmetic {
   position: absolute;
   top: -3px;
