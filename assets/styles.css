@@ -4938,6 +4938,9 @@ html.touch .Scrollable{overflow-x:scroll;-webkit-overflow-scrolling:touch}
 .Item-name.Item--HEIRLOOM {
   color: #0cf;
 }
+.color-blue-verylight {
+  color: #00aeff;
+}
 .Armory-Talents .Talent.is-selected {
   -webkit-box-shadow: none;
   box-shadow: none;
