@@ -76,6 +76,41 @@
     }
 }
 
+.Raid-Tile {
+    background-color: #352011;
+    text-align: center;
+    padding: 10px;
+    font-family: "Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    font-size: 13.5px;
+    line-height: 22.5px;
+    color: #b1997f;
+    @media (min-width:720px) {
+        font-size: 15.3px;
+        line-height: 25.5px;
+    }
+    @media (min-width:1280px) {
+        font-size: 18px;
+        line-height: 30px;
+        padding: 20px;
+    }
+    &--complete {
+        background-color: #91c24e;
+        color: #352011;
+    }
+    &--in-progress {
+        background-color: #fff468;
+        color: #352011;
+    }
+}
+
+.Raid-Difficulty {
+    display: block;
+    @media (min-width:1280px) {
+        display: inline;
+    }
+}
+
 
 @import 'navbar.css'
 @import 'footer.css'

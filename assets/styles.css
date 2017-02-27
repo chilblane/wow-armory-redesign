@@ -4960,6 +4960,45 @@ html.touch .Scrollable{overflow-x:scroll;-webkit-overflow-scrolling:touch}
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+.Raid-Tile {
+  background-color: #352011;
+  text-align: center;
+  padding: 10px;
+  font-family: "Semplicita Pro", "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 13.5px;
+  line-height: 22.5px;
+  color: #b1997f;
+}
+@media (min-width: 720px) {
+  .Raid-Tile {
+    font-size: 15.3px;
+    line-height: 25.5px;
+  }
+}
+@media (min-width: 1280px) {
+  .Raid-Tile {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px;
+  }
+}
+.Raid-Tile--complete {
+  background-color: #91c24e;
+  color: #352011;
+}
+.Raid-Tile--in-progress {
+  background-color: #fff468;
+  color: #352011;
+}
+.Raid-Difficulty {
+  display: block;
+}
+@media (min-width: 1280px) {
+  .Raid-Difficulty {
+    display: inline;
+  }
+}
 .nav-client .nav-collapse {
   position: relative;
   height: 0;
