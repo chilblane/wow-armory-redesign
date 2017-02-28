@@ -4960,16 +4960,22 @@ html.touch .Scrollable{overflow-x:scroll;-webkit-overflow-scrolling:touch}
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-.Raid-Icon {
+.Keystone-info {
+  text-align: center;
   width: 62px;
-  height: 60px;
+}
+.Raid-Icon,
+.Dungeon-Icon {
+  width: 62px;
+  height: 62px;
   position: relative;
 }
-.Raid-Icon .GameIcon-icon {
-  background-image: url("../assets/Icon/raid-icons.jpg");
+.Raid-Icon .GameIcon-icon,
+.Dungeon-Icon .GameIcon-icon {
   background-repeat: no-repeat;
 }
-.Raid-Icon-abbr {
+.Raid-Icon-abbr,
+.Dungeon-Icon-abbr {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -4978,6 +4984,12 @@ html.touch .Scrollable{overflow-x:scroll;-webkit-overflow-scrolling:touch}
   color: #fff;
   font-weight: bold;
   text-shadow: 0 1px 2px #000;
+}
+.Raid-Icon .GameIcon-icon {
+  background-image: url("../assets/Icon/raid-icons.jpg");
+}
+.Dungeon-Icon .GameIcon-icon {
+  background-image: url("../assets/Icon/dungeon-icons.jpg");
 }
 .Raid-Tile {
   background-color: #352011;
