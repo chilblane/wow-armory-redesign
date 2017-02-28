@@ -4915,6 +4915,9 @@ html.touch .Scrollable{overflow-x:scroll;-webkit-overflow-scrolling:touch}
   right: 0;
   background-position: top center;
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
   opacity: 0.5;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
