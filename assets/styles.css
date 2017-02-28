@@ -4962,7 +4962,11 @@ html.touch .Scrollable{overflow-x:scroll;-webkit-overflow-scrolling:touch}
 }
 .Keystone-info {
   text-align: center;
-  width: 62px;
+}
+@media (min-width: 720px) {
+  .Keystone-info {
+    width: 62px;
+  }
 }
 .Raid-Icon,
 .Dungeon-Icon {
