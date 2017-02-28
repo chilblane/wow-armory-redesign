@@ -9389,3 +9389,23 @@ input[type="button"].btn-block {
   margin-top: 0px;
 }
 
+.credit-bar {
+  position: fixed;
+  z-index: 1000;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.8);
+  border-top: 1px solid rgba(255,255,255,0.5);
+  -webkit-box-shadow: 0 0 5px #000;
+  box-shadow: 0 0 5px #000;
+  padding: 10px;
+  text-align: center;
+}
+.credit-bar a {
+  color: #77b1f8;
+}
+.credit-bar a:hover,
+.credit-bar a:focus {
+  text-decoration: underline;
+}
