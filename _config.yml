@@ -1,6 +1,6 @@
 # Server
 url: http://www.chilblane.com/wow-armory-redesign
-baseurl: ""
+baseurl: "/wow-armory-redesign"
 exclude: [node_modules, src, Gemfile, Gemfile.lock, Gruntfile.js, package.json, README.md]
 permalink: /:title
 
