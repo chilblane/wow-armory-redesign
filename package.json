@@ -44,6 +44,7 @@
         "send": "^0.19.2",
         "sha.js": "^2.4.12",
         "shell-quote": "^1.10.0",
+        "stylus": "0.63.0",
         "tmp": "^0.2.7",
         "websocket-driver": "^0.7.5"
     },
