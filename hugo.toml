@@ -1,0 +1,15 @@
+baseURL = "https://chilblane.github.io/wow-armory-redesign/"
+languageCode = "en-US"
+title = "WoW Armory Redesign"
+
+# Serve /dnasis.html (reachable at /dnasis on GitHub Pages) as Jekyll did.
+uglyURLs = true
+
+# Single static page plus a placeholder home page: no feeds, sitemaps or taxonomies.
+disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT", "404"]
+
+[params]
+  description = "Portfolio project redesigning World of Warcraft Armory pages, by Daniel Singer (chilblane)"
+  authors = "Daniel Singer, Blizzard"
+  # Absolute site root used for canonical / og:url / og:image.
+  siteurl = "https://chilblane.github.io/wow-armory-redesign"

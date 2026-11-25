@@ -1,0 +1,16 @@
+<meta charset="utf-8"/>
+<meta http-equiv="x-ua-compatible" content="ie=edge"/>
+<meta name="viewport" content="initial-scale=1.0,width=device-width" />
+
+{{ partial "meta.html" . }}
+
+{{ partial "favicon.html" . }}
+
+{{ partial "analytics.html" . }}
+
+<meta name="robots" content="noindex, nofollow">
+
+{{ $css := slice (resources.Get "css/wow.css") (resources.Get "css/armory.css") (resources.Get "css/navbar.css") (resources.Get "css/footer.css") (resources.Get "css/credit-bar.css") | resources.Concat "assets/styles.css" }}
+{{ if hugo.IsProduction }}{{ $css = $css | minify | fingerprint }}{{ end }}
+<link rel='stylesheet' href='{{ $css.RelPermalink }}'>
+<script src="{{ "assets/scripts/core.js" | relURL }}"></script>
