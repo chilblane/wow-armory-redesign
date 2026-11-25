@@ -1,7 +1,7 @@
-# Jekyll and node
-node_modules
-.jekyll-metadata
-_site
+# Hugo
+public/
+resources/_gen/
+.hugo_build.lock
 
 # Other stuff
 *.log

@@ -1,0 +1,25 @@
+{{- $path := cond .IsHome "/" (printf "/%s" .File.ContentBaseName) -}}
+{{ if .Title }}
+<title>{{ .Title | safeHTML }} - {{ site.Title }}</title>
+<meta property="og:title" content="{{ site.Title }} | {{ .Title | safeHTML }}"/>
+<meta name="description" content="{{ .Description | safeHTML }}">
+<meta property="og:description" content="{{ .Description | safeHTML }}">
+{{ else }}
+<title>{{ site.Title }}</title>
+<meta property="og:title" content="{{ site.Title }}"/>
+<meta name="description" content="{{ site.Params.description }}">
+<meta property="og:description" content="{{ site.Params.description }}">
+{{ end }}
+<link rel="canonical" href="{{ site.Params.siteurl }}{{ $path }}">
+<meta property="og:url" content="{{ site.Params.siteurl }}{{ $path }}">
+
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="{{ site.Title }}"/>
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:site" content="@">
+<meta name="twitter:creator" content="@">
+<meta name="author" content="{{ site.Params.authors }}">
+<meta name="twitter:card" content="summary_large_image">
+
+<meta property="og:image" content="{{ site.Params.siteurl }}">

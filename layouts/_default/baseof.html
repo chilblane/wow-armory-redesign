@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang='en'>
+<head>
+{{ partial "header.html" . }}
+</head>
+<body>
+<div class="body">
+{{ partial "bnet-nav.html" . }}
+{{ partial "site-nav.html" . }}
+{{ block "main" . }}{{ end }}
+{{ partial "social-bar.html" . }}
+{{ partial "site-footer.html" . }}
+{{ partial "credit-bar.html" . }}
+{{ partial "scripts.html" . }}
+</div>
+</body>
+</html>
