@@ -1,4 +1,4 @@
-baseURL = "http://www.chilblane.com/wow-armory-redesign/"
+baseURL = "https://chilblane.github.io/wow-armory-redesign/"
 languageCode = "en-US"
 title = "WoW Armory Redesign"
 
@@ -12,4 +12,4 @@ disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT", "404"]
   description = "Portfolio project redesigning World of Warcraft Armory pages, by Daniel Singer (chilblane)"
   authors = "Daniel Singer, Blizzard"
   # Absolute site root used for canonical / og:url / og:image.
-  siteurl = "http://www.chilblane.com/wow-armory-redesign"
+  siteurl = "https://chilblane.github.io/wow-armory-redesign"
